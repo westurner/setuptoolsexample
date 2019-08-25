@@ -12,6 +12,6 @@ setup(name='example',
       zip_safe=False,
       entry_points={
           'console_scripts': [
-              'example = example.thecode:main'
+              'examplecli = example.thecode:main'
           ]}
       )
